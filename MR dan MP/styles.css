@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-row {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.input-row input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    flex: 1;
+    text-decoration: none;
+}
+
+.input-row input[type="text"].completed {
+    text-decoration: line-through;
+}
+
+.input-row button {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.input-row button:hover {
+    background-color: #e0e0e0;
+}
+
+.input-row button:active {
+    background-color: #d0d0d0;
+}
+
+#savedInputs {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#savedInputs p {
+    margin: 5px 0;
+}
